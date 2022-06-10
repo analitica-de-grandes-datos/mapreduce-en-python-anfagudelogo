@@ -14,3 +14,4 @@ Pruebe el algoritmo con
 
 $ cat credit.csv | python mapper.py | sort | python reducer.py 
 
+docker run --rm -it --name hadoop -p 50070:50070 -p 8088:8088 -p 8888:8888 -v "%cd%":/workspace jdvelasq/hadoop:2.10.1
