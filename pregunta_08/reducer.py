@@ -7,7 +7,7 @@ if __name__ == "__main__":
     for line in sys.stdin:
         if len(line.split("\t")) > 1:
             col1, col2, col3 = line.split("\t")
-            col3 = int(col3)
+            col3 = float(col3)
             if col1 not in acc_count.keys():
                 acc_count[col1] = 1
             else:
