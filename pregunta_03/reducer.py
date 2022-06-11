@@ -23,7 +23,7 @@ def sort_tuple(tup):
     return tup
 
 for a,b in sort_tuple(acc):
-    sys.stdout.write("{}\t{}\n".format(a, b))
+    sys.stdout.write("{},{}\n".format(a, b))
 
 
  
