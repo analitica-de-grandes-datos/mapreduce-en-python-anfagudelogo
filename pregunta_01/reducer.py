@@ -23,6 +23,7 @@ if __name__ == "__main__":
                 {})
 
     for key,val in result_dict.items():
+        key = key.replace('\n','')
         sys.stdout.write("{}\t{}\n".format(key, val))
 
     
