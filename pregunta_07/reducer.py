@@ -12,4 +12,4 @@ if __name__ == "__main__":
             pass
 
     for col1, col2, col3 in sorted(acc, key=lambda element: (element[0], element[2])):
-        sys.stdout.write("{}   {}   {}}\n".format(col1, col2, col3))
+        sys.stdout.write("{}   {}   {}\n".format(col1, col2, col3))
