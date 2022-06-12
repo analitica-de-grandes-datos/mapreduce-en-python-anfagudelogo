@@ -8,6 +8,3 @@ if __name__ == "__main__":
         a, b, c = line.split()
 
         sys.stdout.write("{}\t{}\t{}\n".format(a, b, c))
-
-
-# sorted(unsorted, key=lambda element: (element[1], element[2]))
